@@ -1,0 +1,28 @@
+@import 'model/_config.scss';
+@import 'model/_normalize.scss';
+@import 'model/_font.scss';
+
+
+/**************** WHATSAPP *********************/
+.container-whatsapp{
+    position: fixed;
+    right: 20px;
+    bottom: 15px;
+    a{
+        img{
+            width: 75px;
+            transition: all 350ms ease;
+            @include respondto(xs) {
+                width: 60px;
+            }
+            @include respondto(sm) {
+                width: 60px;
+            }
+            @include respondto(md) {}
+            @include respondto(lg) {}
+            &:hover{
+                transform: scale(1.075);
+            }
+        }
+    }
+}

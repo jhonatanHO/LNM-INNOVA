@@ -1,0 +1,61 @@
+// @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900');
+// @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800');
+
+
+/* SF UI DISPLAY */
+@font-face {
+    font-family: 'helveticaLt';
+    font-weight: 400;
+    font-style: normal;
+    src: local('helveticaLt 400'), local('helveticaLt-400'), url('../fonts/helvetica-lt-std-roman.otf') format('opentype');
+}
+
+/* SF UI DISPLAY */
+@font-face {
+    font-family: 'SFUIDisplay';
+    font-weight: 200;
+    font-style: normal;
+    src: local('SFUIDisplay 200'), local('SFUIDisplay-200'), url('../fonts/sf-ui-display-ultralight.otf') format('opentype');
+}
+@font-face {
+    font-family: 'SFUIDisplay';
+    font-weight: 300;
+    font-style: normal;
+    src: local('SFUIDisplay 300'), local('SFUIDisplay-300'), url('../fonts/sf-ui-display-thin.otf') format('opentype');
+}
+@font-face {
+    font-family: 'SFUIDisplay';
+    font-style: normal;
+    font-weight: 400;
+    src: local('SFUIDisplay 400'), local('SFUIDisplay-400'), url('../fonts/sf-ui-display-light.otf') format('opentype');
+}
+@font-face {
+    font-family: 'SFUIDisplay';
+    font-style: normal;
+    font-weight: 500;
+    src: local('SFUIDisplay 500'), local('SFUIDisplay-500'), url('../fonts/sf-ui-display-medium.otf') format('opentype');
+}
+@font-face {
+    font-family: 'SFUIDisplay';
+    font-style: normal;
+    font-weight: 600;
+    src: local('SFUIDisplay 600'), local('SFUIDisplay-600'), url('../fonts/sf-ui-display-semibold.otf') format('opentype');
+}
+@font-face {
+    font-family: 'SFUIDisplay';
+    font-weight: 700;
+    font-style: normal;
+    src: local('SFUIDisplay 700'), local('SFUIDisplay-700'), url('../fonts/sf-ui-display-bold.otf') format('opentype');
+}
+@font-face {
+    font-family: 'SFUIDisplay';
+    font-style: normal;
+    font-weight: 800;
+    src: local('SFUIDisplay 800'), local('SFUIDisplay-800'), url('../fonts/sf-ui-display-heavy.otf') format('opentype');
+}
+@font-face {
+    font-family: 'SFUIDisplay';
+    font-style: normal;
+    font-weight: 900;
+    src: local('SFUIDisplay 900'), local('SFUIDisplay-900'), url('../fonts/sf-ui-display-black.otf') format('opentype');
+}

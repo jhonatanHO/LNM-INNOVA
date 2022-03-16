@@ -1,0 +1,133 @@
+/**************** RESPONSIVE *********************/
+// definicion de las medidas de la pantalla //
+
+$xs: 576px;
+$sm: 768px;
+$md: 992px;
+$lg: 1200px;
+$xlg: 1700px;
+$mobile-landscape: 480px;
+$tablet-landscape: 1024px;
+
+$container-max-widths: (
+  maxxs: 540px,
+  sm: 720px,
+  md: 960px,
+  lg: 1140px,
+  xlg: 1400px,
+);
+
+/**************** /RESPONSIVE *********************/
+
+
+/***** Dark theme Material Design *****/
+
+$ldark-status-bar: #000000;
+$ldark-app-bar: #212121;
+$ldark-background: #303030;
+$ldark-cards-dialogs: #424242;
+$ldark-primary-text: rgba(255, 255, 255, 1.00);
+$ldark-secundary-text: rgba(255, 255, 255, 0.70);
+$ldark-disabled-text: rgba(255, 255, 255, 0.50);
+$ldark-divider-text: rgba(255, 255, 255, 0.12);
+$ldark-divider: rgba(255, 255, 255, 0.38);
+$ldark-icon-active: rgba(0, 0, 0, 0.54);
+$ldark-icon-inactive: rgba(0, 0, 0, 0.38);
+
+/***** /Dark theme Material Design *****/
+
+
+/****** Light theme Material Design ******/
+
+$llight-status-bar: #e0e0e0;
+$llight-app-bar: #f5f5f5;
+$llight-background: #fafafa;
+$llight-cards-dialogs: #ffffff;
+$llight-primary-text: rgba(0, 0, 0, 0.87);
+$llight-secundary-text: rgba(0, 0, 0, 0.54);
+$llight-disabled-text: rgba(0, 0, 0, 0.38);
+$llight-divider-text: rgba(0, 0, 0, 0.12);
+$llight-divider: rgba(0, 0, 0, 0.38);
+$llight-icon-active: rgba(255, 255, 255, 1.00);
+$llight-icon-inactive: rgba(255, 255, 255, 0.50);
+
+/****** /Light theme Material Design ******/
+
+
+/********* Constants de fuente Licenciatarios-Alta ***********/
+
+$font-Helvetica: 'helveticaLt', sans-serif;
+$font-SfuiDisplay: 'SFUIDisplay', sans-serif;
+
+/********* /Constants de fuente Pisco Week ***********/
+
+
+
+
+/********* PALETTE COLORS ***********/
+
+$in-primary-300           : #9BC2D2;
+$in-white-500             : #ffffff;
+
+$in-accent                : #FF7D24;
+$in-accent-dark           : #fb7112;
+
+$in-green                 : #48A700;
+$in-green-dark            : #3d8d00;
+
+// LICENCIATARIOS-ALTA
+// $pw-primary-900         : #7C2529;
+// $pw-primary-700         : #A4343A;
+// $pw-primary-500         : #666666;
+// $pw-primary-300         : #DA291C;      // Principal
+
+// $pw-secondary-900       : #242424;
+// $pw-secondary-700       : #403C3D; 
+// $pw-secondary-600       : #4e4e4e;
+// $pw-secondary-550       : #515151;
+// $pw-secondary-525       : #575756;
+// $pw-secondary-500       : #f38430;
+// $pw-secondary-475       : #b4b4b4;
+// $pw-secondary-450       : #c4c4c4;
+// $pw-secondary-400       : #d8d8d8;
+// $pw-secondary-350       : #f8f8f9;
+// $pw-secondary-300       : #f6f6f6;
+
+
+// $pw-blue-500            : #005EB8;
+// $pw-green-500           : #84BD00;
+// $pw-yellow-700          : #E4AE17;
+// $pw-rojo-500            : #BA0C2F;
+// $pw-white-600           : #E5E5E5;
+// $pw-white-700           : #fdfdfd;
+// $pw-white-600           : #f2f2f2;
+// $pw-white-500           : #ffffff;
+
+
+
+// $yp-primary-100         : #F3F0F6;
+// $yk-primary-300         : #026FBF;
+// $yk-primary-500         : #006FBF;
+// $yk-primary-700         : #003563;
+// $yp-primary-900         : #3B0A64;
+// $yp-secondary-100       : #AAFFF5;
+// $yk-secondary-300       : #98CFE3;
+// $yk-secondary-500       : #64DBFF;
+// $yp-secondary-700       : #00AA95;
+// $yp-secondary-900       : #007E6F;
+// $yk-accent              : #ffffff;
+// $yp-gray-100            : #F6F6F6;
+// $yp-gray-200            : #E5E7EB;
+// $yp-gray-300            : #BFC4CC;
+// $yp-gray-500            : #99A1AD;
+// $yp-gray-700            : #868F9E;
+// $yp-gray-900            : #4D5B70;
+// $yp-warm                : #E30425;
+// $yp-success             : #6AC90F;
+// $yp-wait                : #FFD546;
+// $yp-skeletor            : #f0f1f3;
+// $yp-skeletor-200        : #e2e2e2;
+// $yp-rejected          : #ff0000;
+// $yp-disabled          : $llight-disabled-text; // naranja decolorado
+
+/********* /PALETTE COLORS ***********/

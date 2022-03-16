@@ -1,0 +1,116 @@
+@import 'model/_config.scss';
+@import 'model/_normalize.scss';
+@import 'model/_font.scss';
+
+
+
+/**************** BODY *********************/
+.container-confirm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../img/fondo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left top;
+    min-height: 100vh;
+    padding: 50px 0 60px 0;
+    .content-confirm{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        padding: 0 5% 0 5%;
+        .logo-innova{
+            width: 160px;
+            margin-bottom: 70px;
+            @include respondto(minxs) {}
+            @include respondto(maxxs) {}
+            @include respondto(sm) {}
+            @include respondto(md) {
+                width: 310px;
+            }
+            @include respondto(lg) {
+                width: 310px;
+            }
+            @include respondto(xlg) {
+                width: 310px;
+            }
+        }
+        .paragraph01{
+            font-family: $font-SfuiDisplay;
+            font-size: 28px;
+            font-weight: 400;
+            line-height: 1.1;
+            color: $in-white-500;
+            text-align: center;
+            margin-bottom: 20px;
+            width: 560px;
+            max-width: 95%;
+        }
+        .paragraph02{
+            font-family: $font-SfuiDisplay;
+            font-size: 28px;
+            font-weight: 400;
+            line-height: 1.1;
+            color: $in-white-500;
+            text-align: center;
+            margin-bottom: 5px;
+            max-width: 95%;
+        }
+        .zoom{
+            margin-bottom: 5px;
+            img{
+                width: 110px;
+            }
+        }
+        .paragraph03{
+            font-family: $font-SfuiDisplay;
+            font-size: 28px;
+            font-weight: 400;
+            line-height: 1.1;
+            color: $in-white-500;
+            text-align: center;
+            margin-bottom: 50px;
+            max-width: 95%;
+        }
+        .link-web{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: $in-green;
+            max-width: 90%;
+            width: 350px;
+            height: 50px;
+            font-family: $font-Helvetica;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 1;
+            padding: 5px;
+            text-transform: uppercase;
+            color: $in-white-500;
+            text-decoration: none;
+            margin-bottom: 90px;
+            &:hover{
+                background-color: $in-green-dark;
+            }
+        }
+        .logo-rstec{
+            width: 100px;
+            @include respondto(minxs) {}
+            @include respondto(maxxs) {}
+            @include respondto(sm) {}
+            @include respondto(md) {
+                width: 190px;
+            }
+            @include respondto(lg) {
+                width: 190px;
+            }
+            @include respondto(xlg) {
+                width: 190px;
+            }
+        }
+    }
+}
+/**************** FOOTER *********************/
